@@ -26,7 +26,6 @@ header {
     }
 
     nav {
-        background-color: lime;
         flex: 1;
 
         ul{
@@ -39,10 +38,42 @@ header {
 
             li {
                 font-size: 14px;
-                
                 cursor: pointer;
                 z-index: 1;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                &.active a{
+                    color: white;
+                }
             }
+
+            .indicator {
+                position: absolute;
+                height: 100%;
+                width: 60px;
+                background-color: black;
+                border-radius: 100px;
+                translate: -14px;
+                transition: .2s ease-out;
+            }
+        }
+    }
+
+    .profile {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: flex-end;
+
+        img {
+            height: 35px;
+            aspect-ratio: 1;
+            border-radius: 100px;
+            object-fit: cover;
         }
     }
 }
