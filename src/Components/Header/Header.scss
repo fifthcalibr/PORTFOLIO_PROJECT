@@ -1,0 +1,49 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px 30px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex: 1;
+        h1 {
+            font-size: 18px;
+
+            i {
+                background: linear-gradient(#ffffff, #6b6d79);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+
+    nav {
+        background-color: lime;
+        flex: 1;
+
+        ul{
+            position: relative;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 32px;
+            padding: 9px 20px;
+
+            li {
+                font-size: 14px;
+                
+                cursor: pointer;
+                z-index: 1;
+            }
+        }
+    }
+}
+
