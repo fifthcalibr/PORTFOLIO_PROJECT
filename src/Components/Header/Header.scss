@@ -7,6 +7,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("../../assets/background.jpg");
     
     .logo {
         display: flex;
@@ -17,7 +18,7 @@ header {
             font-size: 18px;
 
             i {
-                background: linear-gradient(#ffffff, #6b6d79);
+                background: linear-gradient(#312c2c, #0d2de0);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
