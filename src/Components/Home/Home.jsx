@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.scss"
+import profile from "../../assets/me.jpg"
 
 const Home = () => {
   return <div className='home'>
@@ -8,16 +9,18 @@ const Home = () => {
 
         <div className="name">
             <div>
-                <h1 className='txt'>GR <br />AC</h1>
+                <h1 className='txt'>RI <br />NA</h1>
             </div>
-            <h1 className='txt lg'>E</h1>
+            <h1 className='txt lg'>T</h1>
             <div className="stack">
                 FULL-STACK <b>DEVELOPER</b>
             </div>
         </div>
     </div>
 
-    <div className="profile-img"></div>
+    <div className="profile-img">
+      <img src={profile} alt="" />
+    </div>
   </div>
 }
 
