@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header"
 import "./App.scss"
-import Home from "./Components/Home/Home"
+import Home from "./Pages/Home/Home"
+import About from "./Pages/Home/About/About"
 
 function App() {
 
@@ -9,8 +10,11 @@ function App() {
       <Header />
 
       <main>
-        <div className="page" id="page">
+        <div className="page" id="home">
           <Home />
+        </div>
+        <div className="page" id="about">
+          <About />
         </div>
       </main>
 

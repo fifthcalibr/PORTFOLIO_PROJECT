@@ -18,7 +18,8 @@ header {
             font-size: 18px;
 
             i {
-                background: linear-gradient(#312c2c, #0d2de0);
+                //background: linear-gradient(#312c2c, #0d2de0);
+                background: linear-gradient(var(--clr-i), var(--clr-ii));
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
