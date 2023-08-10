@@ -7,8 +7,10 @@
     border-radius: 10px;
     margin: 10px;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+    -ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
     cursor: pointer;
-    //transition: scale .2s;
+    transition: scale .2s;
     -webkit-transition: -webkit-transform .2s;
 
     a {
@@ -21,6 +23,7 @@
 
     &:hover {
         //scale: 1.06;
+        transform: scale(1.06);
         -webkit-transform: scale(1.06, 1.06);
         -ms-transform: scale(1.06, 1.06);
     }
