@@ -94,9 +94,11 @@
             object-fit: cover;
             //border-radius: 100px;
             transition: .3s ease;
+            -webkit-transition: -webkit-transform .2s;
 
             &:hover{
                 scale: 1.02;
+                -webkit-transform: scale(1.02);
             }
         }
     }

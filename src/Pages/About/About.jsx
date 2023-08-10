@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.scss"
-import InfoCard from '../../../Components/InfoCard/InfoCard'
+import InfoCard from '../../Components/InfoCard/InfoCard'
 
 const About = () => {
   return (
