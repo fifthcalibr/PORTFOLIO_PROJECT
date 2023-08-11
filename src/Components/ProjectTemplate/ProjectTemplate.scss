@@ -17,15 +17,20 @@
 
         .project-name {
             font-size: 20px;
+            margin-bottom: 10px;
         }
 
         .project-desc {
             font-size: 16px;
-            color: var(--clr-i);
+            color: var(--clr-ii);
+            //color: rgb(10, 111, 112);
+            white-space: pre-line;
+            line-height: 18px;
         }
 
         .tags {
-            margin-top: 90px;
+            //margin-top: 90px;
+            margin-top: 30px;
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -55,6 +60,27 @@
                         color: white;
                     }
                 }
+            }
+        }
+
+        .github-link {
+            cursor: pointer;
+            margin: 30px 0;
+            padding: 10px 10px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, var(--clr-i), var(--clr-ii));
+            transition: transform .3s;
+            filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+            text-decoration: none;
+
+            h2 {
+                font-weight: normal;
+                font-size: 17px;
+                color: white;
+            }
+
+            &:hover {
+                transform: scale(1.06);
             }
         }
     }

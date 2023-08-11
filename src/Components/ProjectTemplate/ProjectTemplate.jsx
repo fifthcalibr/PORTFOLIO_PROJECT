@@ -2,7 +2,7 @@ import React from "react";
 import "./ProjectTemplate.scss";
 import Tag from "../Tag/Tag";
 
-function ProjectTemplate({ projectName, projectDesc, tags, img }) {
+function ProjectTemplate({ projectName, projectDesc, tags, img ,link }) {
     return (
         <div className="project">
             <div className="project-details">
@@ -18,6 +18,7 @@ function ProjectTemplate({ projectName, projectDesc, tags, img }) {
                         })}
                     </div>
                 </div>
+                <a href= {link} target="_blank" className="github-link"><h2>Github Link</h2></a>
             </div>
             <div className="project-image">
                 <img src={img} alt="" />
