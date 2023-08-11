@@ -11,7 +11,7 @@ header {
     //background: linear-gradient(#fff, #a9e7e4);
     background-color: #fff;
     background-color: white;
-    
+
     .logo {
         display: flex;
         align-items: center;
@@ -33,7 +33,7 @@ header {
     nav {
         flex: 1;
 
-        ul{
+        ul {
             position: relative;
             display: flex;
             align-items: center;
@@ -51,7 +51,7 @@ header {
                     color: black;
                 }
 
-                &.active a{
+                &.active a {
                     color: white;
                 }
             }
@@ -63,7 +63,7 @@ header {
                 background-color: black;
                 border-radius: 100px;
                 translate: -14px;
-                transition: .2s ease-out;
+                transition: 0.2s ease-out;
             }
         }
     }
@@ -79,7 +79,12 @@ header {
             aspect-ratio: 1;
             border-radius: 100px;
             object-fit: cover;
+            translate: 0 -150%;
+            transition: 0.3s ease;
+        }
+
+        &.active img {
+            translate: 0;
         }
     }
 }
-

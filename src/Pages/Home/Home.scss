@@ -78,11 +78,11 @@
         width: 55%;
         aspect-ratio: 1;
         //background-color: var(--clr-i);
-        border-radius: 30px;
         overflow: hidden;
         cursor: pointer;
         border-radius: 30px;
-        filter: drop-shadow(10px 20px 15px rgba(0, 0, 0, 0.338)); //Does not support by safari
+        //filter: drop-shadow(10px 20px 15px rgba(0, 0, 0, 0.338)); //Does not support by safari
+        box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.338);
         //-webkit-box-shadow: (10px 20px 15px rgba(0, 0, 0, 0.338));
         translate: -100px;
         opacity: 0;
@@ -94,11 +94,11 @@
             object-fit: cover;
             //border-radius: 100px;
             transition: .3s ease;
-            -webkit-transition: -webkit-transform .2s;
+            //-webkit-transition: -webkit-transform .2s;
 
             &:hover{
-                scale: 1.02;
-                -webkit-transform: scale(1.02);
+                //scale: 1.02;
+                //-webkit-transform: scale(1.02);
                 transform: scale(1.02);
             }
         }

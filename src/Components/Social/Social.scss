@@ -6,9 +6,10 @@
     padding: 10px 15px;
     border-radius: 10px;
     margin: 10px;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
-    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
-    -ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+    //filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+    //-webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+    //-ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
     cursor: pointer;
     transition: scale .2s;
     -webkit-transition: -webkit-transform .2s;
