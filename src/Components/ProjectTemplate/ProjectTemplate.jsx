@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectTemplate.scss";
+import Tag from "../Tag/Tag";
 
 function ProjectTemplate({ projectName, projectDesc, tags, img }) {
     return (
@@ -12,9 +13,7 @@ function ProjectTemplate({ projectName, projectDesc, tags, img }) {
                     <div className="tags-wrapper">
                         {tags.map((tag) => {
                             return (
-                                <div className="tag">
-                                    <h2 className="title">React</h2>
-                                </div>
+                                <Tag key = {projectName} title = {tag}/>
                             );
                         })}
                     </div>

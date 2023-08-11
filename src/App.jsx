@@ -10,6 +10,7 @@ import linkedin from "./assets/linkedin.png"
 import discord from "./assets/discord.png"
 import email from "./assets/email.png"
 import messenger from "./assets/messenger.png"
+import Contact from "./Pages/Contact/Contact"
 
 function App() {
 
@@ -40,6 +41,10 @@ function App() {
 
         <div className="page" id="projects">
           <Projects />
+        </div>
+
+        <div className="page" id="contact">
+          <Contact />
         </div>
       </main>
 

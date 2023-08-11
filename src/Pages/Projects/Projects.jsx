@@ -4,35 +4,51 @@ import ProjectTemplate from "../../Components/ProjectTemplate/ProjectTemplate";
 import admin from "../../assets/linkedin.png";
 
 function Projects() {
-    const [tags] = useState([
+    const [tagsWebsite] = useState([
         "React",
         "CSS/SCSS",
         "Node",
-        "Express",
-        "More...",
+        "JavaScript",
+        "HTML"
+    ]);
+    
+    const [tagsWeather] = useState([
+        "React",
+        "CSS/SCSS",
+        "Node",
+        "JavaScript",
+        "HTML",
+        "Express"
+    ]);
+
+    const [tagsSnake] = useState([
+        "Python",
+        "PyGame",
     ]);
     return (
         <div className="projects-wrapper">
+            <div></div>
             <ProjectTemplate
-                projectName="Admin"
+                projectName="Weather App"
                 projectDesc="sadas"
-                tags={tags}
+                tags={tagsWeather}
                 img={admin}
             />
 
             <ProjectTemplate
-                projectName="Admin"
+                projectName="Snake Game"
                 projectDesc="sadas"
-                tags={tags}
+                tags={tagsSnake}
                 img={admin}
             />
 
             <ProjectTemplate
-                projectName="Admin"
+                projectName="Personal Portfolio Website"
                 projectDesc="sadas"
-                tags={tags}
+                tags={tagsWebsite}
                 img={admin}
             />
+            <div></div>
         </div>
     );
 }
