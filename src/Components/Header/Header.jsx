@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Header.scss';
-import profile from "../../assets/me.jpg";
+import profile from "../../assets/mee.jpg";
 
 const Header = () => {
   useEffect(() => {
