@@ -1,39 +1,24 @@
 .contact {
-    position: relative;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding-top: 50px;
+    background-color: red;
+    height: 300px;
 
     h1 {
-        font-size: 40px;
+        margin: 10px;
     }
 
-    span {
-        max-width: 60%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .socials {
+    .contact-details{
+        margin: 10px;
         display: flex;
-        flex-wrap: wrap;
-        margin: 100px 0;
-        justify-content: center;
-
-        .social {
-            background: #1a1a1a;
-
-            h1 {
-                font-size: 20px;
-            }
-        }
+        justify-content: space-between;
+        align-items: center;
     }
 
-    footer {
-        margin-top: 100px;
-        text-align: center;
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

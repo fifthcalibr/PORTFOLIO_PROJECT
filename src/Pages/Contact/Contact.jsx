@@ -1,25 +1,25 @@
-import React from 'react'
-import email from "../../assets/email.png"
-import messenger from "../../assets/messenger.png"
-import "./Contact.scss"
-import Social from '../../Components/Social/Social.jsx'
-
+import React from "react";
+import "./Contact.scss";
+import Social from "../../Components/Social/Social";
+import email from "../../assets/email.png";
+import messenger from "../../assets/messenger.png";
 
 const Contact = () => {
-  return (
-    <div className='contact'>
-      <h1>Get in Touch</h1>
-      <span>sdsdsd</span>
-      <div className="socials">
-        <Social logo = {email} title = "Email" link = "mailto:rinatkaka3@gmail.com"/>
-        <Social logo = {messenger} title = "LinkedIn" link = "mailto:rinatkaka3@gmail.com"/>
-      </div>
+    return (
+        <div className="contact">
+            <h1>Get in Touch</h1>
+            <div className="contact-details">
+                <div className="socails">
+                    <Social logo={email} title={"Email"} link={"sssss"} />
+                    <Social logo={messenger} title={"Email"} link={"sssss"} />
+                </div>
+                <div className="form">
+                    <h2>Form</h2>
+                    <h2>Here</h2>
+                </div>
+            </div>
+        </div>
+    );
+};
 
-      <footer>
-        <span>I am footer</span>
-      </footer>
-    </div>
-  )
-}
-
-export default Contact
+export default Contact;
