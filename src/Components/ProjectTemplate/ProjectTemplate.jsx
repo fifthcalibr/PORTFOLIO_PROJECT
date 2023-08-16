@@ -2,23 +2,28 @@ import React from "react";
 import "./ProjectTemplate.scss";
 import Tag from "../Tag/Tag";
 
-function ProjectTemplate({ projectName, projectDesc, tags, img ,link }) {
+function ProjectTemplate({ projectName, projectDesc, tags, img, link }) {
     return (
         <div className="project">
             <div className="project-details">
                 <h2 className="project-name">{projectName}</h2>
-                <span className="project-desc">{projectDesc}</span>
+                {/* <a href= {link} target="_blank"><h2>Github Link</h2></a> */}
+
+                <p className="project-desc">
+                    {" "}
+                    <a href={link} target="_blank" className="github-link">
+                        <h2>Github Link</h2>
+                    </a>
+                    {projectDesc}
+                </p>
                 <div className="tags">
                     <h2 className="tech-stack">Technologies Used:</h2>
                     <div className="tags-wrapper">
                         {tags.map((tag) => {
-                            return (
-                                <Tag key = {projectName} title = {tag}/>
-                            );
+                            return <Tag key={projectName} title={tag} />;
                         })}
                     </div>
                 </div>
-                <a href= {link} target="_blank" className="github-link"><h2>Github Link</h2></a>
             </div>
             <div className="project-image">
                 <img src={img} alt="" />

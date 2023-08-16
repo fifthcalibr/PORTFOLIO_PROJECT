@@ -40,24 +40,28 @@
             width: 70%;
         }
 
-        .socials-wrapper {
-            position: relative;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-
-            .quick-links {
-                font-weight: 500;
-                font-size: 18px;
-            }
-
-            .socials {
-                display: flex;
-            }
+        .contact-me {
+            min-height: 90vh;
         }
+
+        // .socials-wrapper {
+        //     position: relative;
+        //     width: 100%;
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     justify-content: center;
+        //     gap: 20px;
+
+        //     .quick-links {
+        //         font-weight: 500;
+        //         font-size: 18px;
+        //     }
+
+        //     .socials {
+        //         display: flex;
+        //     }
+        // }
     }
 }
 
