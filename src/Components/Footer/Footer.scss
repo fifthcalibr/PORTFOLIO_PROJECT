@@ -1,3 +1,25 @@
+.footer {
+    width: 100%;
+    min-height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.24);
+
+    a {
+        margin: 10px;
+        font-size: 14px;
+        text-decoration: none;
+        color: var(--clr-i);
+        transition: all .3s;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+
 .socials-wrapper {
     position: relative;
     width: 100%;

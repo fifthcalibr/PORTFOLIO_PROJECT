@@ -1,4 +1,6 @@
 import React from 'react'
+import "./Footer.scss"
+import "../Social/Social.scss"
 import github from "../../assets/github-mark.png";
 import linkedin from "../../assets/linkedin.png";
 import discord from "../../assets/discord.png";
@@ -9,14 +11,12 @@ import Social from '../Social/Social';
 function Footer() {
   return (
     <div className='footer'>
-        <h1>Rinat Zabirov</h1>
+        <a href="#home"><h1>Rinat Zabirov</h1></a>
         <div className="menu">
 
         </div>
         <div className="links">
         <div className="socials-wrapper">
-                    <h2 className="quick-links">Quick Links</h2>
-
                     <div className="socials">
                         <Social
                             logo={github}

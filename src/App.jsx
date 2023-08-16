@@ -66,10 +66,13 @@ function App() {
                     <Projects />
                 </div>
 
-                <div className="page" id="contact">
+                <div className="page contact-me" id="contact">
                     <Contact />
                 </div>
-                <Footer />
+
+                <div className="footer">
+                    <Footer />
+                </div>
             </main>
         </div>
     );
