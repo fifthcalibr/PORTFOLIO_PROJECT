@@ -64,3 +64,32 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 5px;
+
+        .name {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .txt {
+                font-size: 110px;
+                line-height: 100px;
+
+                &.lg {
+                    font-size: 250px;
+                    line-height: 200px;
+                }
+            }
+
+            .me {
+                right: 20px;
+            }
+        }
+    }
+}

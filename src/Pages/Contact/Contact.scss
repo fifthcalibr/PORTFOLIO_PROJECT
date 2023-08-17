@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+
     h1 {
         margin: 10px;
         font-size: 24px;
@@ -30,7 +30,7 @@
                 a {
                     text-decoration: none;
                     color: var(--clr-ii);
-                    transition: .3s ease;
+                    transition: 0.3s ease;
 
                     &:hover {
                         color: white;
@@ -88,10 +88,22 @@
 
                     &:hover {
                         color: var(--clr-i);
-                        background-color: rgba(255, 255, 255, 0.663);;
+                        background-color: rgba(255, 255, 255, 0.663);
                         transition: all 0.3s;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact {
+        .contact-details {
+            flex-direction: column;
+            align-items: center;
+            .form {
+                width: 100%;
             }
         }
     }

@@ -104,3 +104,51 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .home {
+        flex-direction: column;
+        margin-top: 20px;
+
+        .details {
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 10px;
+            translate: 0 -90px;
+
+            .name {
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+                width: 100%;
+
+                .txt {
+                    font-size: 110px;
+                    line-height: 100px;
+
+                    &:nth-child(2) {
+                        margin-bottom: 30px;
+                    }
+
+                    &.lg {
+                        font-size: 250px;
+                        line-height: 200px;
+                    }
+                }
+
+                .stack {
+                    rotate: 0deg;
+                    font-size: 14px;
+                    left: 50%;
+                    translate: -50%;
+                }
+            }
+
+        }
+        .profile-img {
+            width: 100%;
+            translate: 0 -80px;
+        }
+    }
+}

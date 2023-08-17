@@ -11,9 +11,12 @@ function ProjectTemplate({ projectName, projectDesc, tags, img, link }) {
 
                 <p className="project-desc">
                     {" "}
-                    <a href={link} target="_blank" className="github-link">
-                        <h2>Github Link</h2>
-                    </a>
+                    <h2>
+                        {" "}
+                        <a href={link} target="_blank" className="github-link">
+                            Github Link
+                        </a>
+                    </h2>
                     {projectDesc}
                 </p>
                 <div className="tags">
