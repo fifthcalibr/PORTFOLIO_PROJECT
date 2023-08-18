@@ -38,13 +38,12 @@ This portfolio website serves as a platform to display my work and expertise in 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
+   git clone https://github.com/fifthcalibr/PORTFOLIO_PROJECT.git
+   cd PORTFOLIO_PROJECT
 
 ## Contact
 
 If you'd like to get in touch or discuss potential collaborations, you can reach me at:
 
-* Email: your.email@example.com
-* LinkedIn: Your Name
-* Twitter: @yourusername
+* Email: rinatkaka3@gmail.com
+* LinkedIn: [Rinat Zabirov](https://www.linkedin.com/in/rinat-zabirov-316740226/)
