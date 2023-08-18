@@ -30,8 +30,10 @@ const Header = () => {
           indicator.style.width = `${width + 28}px`;
 
           link.classList.add("active");
-          })
-        })
+          });
+        });
+
+        window.addEventListener("resize", update());
   }, []);
 
   return (
@@ -46,7 +48,7 @@ const Header = () => {
         <li className='active'><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">GET IN TOUCH</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
 

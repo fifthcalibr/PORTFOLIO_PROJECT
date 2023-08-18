@@ -1,18 +1,22 @@
-import Header from "./Components/Header/Header";
-import "./App.scss";
-import Home from "./Pages/Home/Home";
-import About from "./Pages/About/About";
-import Projects from "./Pages/Projects/Projects";
-import Contact from "./Pages/Contact/Contact";
 import { useEffect } from "react";
+import "./App.scss";
+import Header from "./Components/Header/Header";
+
+import Nav from "./Components/Nav/Nav";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
+import Home from "./Pages/Home/Home";
+import Projects from "./Pages/Projects/Projects";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
     useEffect(() => {
         const navLinks = document.querySelectorAll("nav ul li");
         const indicator = document.querySelector("nav .indicator");
-        const profile = document.querySelector(".profile");
 
+        const navIcons = document.querySelectorAll(".nav-toggle .nav-icon");
+
+        const profile = document.querySelector(".profile");
         const pages = document.querySelectorAll(".page");
 
         const handleScroll = () => {
@@ -42,6 +46,13 @@ function App() {
 
                     indicator.style.width = `${width + 28}px`;
                     indicator.style.left = left + "px";
+
+                    navIcons.forEach((icon) => {
+                        icon.classList.remove("active");
+                    });
+
+                    navIcons[i].classList.add("active");
+
                 }
             }
         };
@@ -52,6 +63,7 @@ function App() {
     return (
         <div className="App">
             <Header />
+            <Nav />
 
             <main>
                 <div className="page" id="home">
