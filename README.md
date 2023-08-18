@@ -1,8 +1,50 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website! This project showcases my skills, projects, and experiences in web development. The website is built using React, JavaScript, SCSS, Node.js, and Vite.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+This portfolio website serves as a platform to display my work and expertise in web development. Whether you're a recruiter, potential collaborator, or just curious, feel free to explore and learn more about me.
+
+## Features
+
+- Interactive design with smooth animations
+- Project showcase with details and links
+- About me section with a personal touch
+- Responsive layout for various devices
+- Contact information for reaching out
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces
+- JavaScript: The programming language that powers interactivity
+- SCSS: A CSS preprocessor for enhanced styling
+- Node.js: A runtime environment for server-side JavaScript
+- Vite: A build tool that enhances development workflow
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/portfolio-website.git
+   cd portfolio-website
+
+## Contact
+
+If you'd like to get in touch or discuss potential collaborations, you can reach me at:
+
+* Email: your.email@example.com
+* LinkedIn: Your Name
+* Twitter: @yourusername
