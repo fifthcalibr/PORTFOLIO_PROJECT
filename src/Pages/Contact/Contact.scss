@@ -33,7 +33,7 @@
                     transition: 0.3s ease;
 
                     &:hover {
-                        color: white;
+                        color: rgb(240, 72, 255);
                     }
                 }
 
@@ -76,7 +76,8 @@
                 button {
                     width: 150px;
                     background: var(--clr-i);
-                    color: rgba(255, 255, 255, 0.663);
+                    //color: rgba(249, 246, 232);
+                    color: rgb(215,230,230);
                     padding: 10px 15px;
                     border-radius: 10px;
                     border: 0px;
@@ -88,7 +89,7 @@
 
                     &:hover {
                         color: var(--clr-i);
-                        background-color: rgba(255, 255, 255, 0.663);
+                        background-color: rgb(215,230,230);
                         transition: all 0.3s;
                     }
                 }
