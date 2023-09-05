@@ -5,10 +5,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.542);
+    background-color: #9bd0ee;
     position: relative;
 
-    .custom-shape-divider-top-1692215470 {
+    .custom-shape-divider-top-1693939340 {
         position: absolute;
         top: 0;
         left: 0;
@@ -16,17 +16,18 @@
         overflow: hidden;
         line-height: 0;
     }
-
-    .custom-shape-divider-top-1692215470 svg {
+    
+    .custom-shape-divider-top-1693939340 svg {
         position: relative;
         display: block;
         width: calc(100% + 1.3px);
-        height: 94px;
+        height: 96px;
+    }
+    
+    .custom-shape-divider-top-1693939340 .shape-fill {
+        fill: #E8F9F8;
     }
 
-    .custom-shape-divider-top-1692215470 .shape-fill {
-        fill: #a9e7e4bd;
-    }
     .link-home {
         font-size: 24px;
         margin-bottom: 10px;
@@ -58,5 +59,53 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+}
+
+.social {
+    display: flex;
+    align-items: center;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none;
+        display: flex;
+        gap: 10px;
+        background: var(--clr-i);
+        color: white;
+        border-radius: 10px;
+        padding: 12px 15px;
+        margin: 10px;
+        //filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+        //-webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+        //-ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+            //scale: 1.06;
+            color: var(--clr-i);
+            background: white;
+        }
+    }
+
+    h1 {
+        font-size: 12px;
+        font-weight: 500;
+        //color: white;
+        //font-family: raleway;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social {
+        border-radius: 100px;
+        
+        h1 {
+            font-size: 16px;
+        }
     }
 }

@@ -1,18 +1,6 @@
 .social {
     display: flex;
     align-items: center;
-    gap: 10px;
-    background: linear-gradient(45deg, var(--clr-i), var(--clr-ii));
-    border-radius: 10px;
-    padding: 12px 15px;
-    margin: 10px;
-    //filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
-    //-webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
-    //-ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
-    cursor: pointer;
-    transition: scale 0.2s;
-    -webkit-transition: -webkit-transform 0.2s;
 
     a {
         display: flex;
@@ -20,23 +8,37 @@
         justify-content: center;
         gap: 8px;
         text-decoration: none;
+        display: flex;
+        gap: 10px;
+        background: var(--clr-i);
+        color: white;
+        border-radius: 10px;
+        padding: 12px 15px;
+        margin: 10px;
+        //filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+        //-webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+        //-ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+            //scale: 1.06;
+            color: var(--clr-i);
+            background: white;
+        }
     }
 
-    &:hover {
-        //scale: 1.06;
-        transform: scale(1.06);
-        -webkit-transform: scale(1.06, 1.06);
-        -ms-transform: scale(1.06, 1.06);
-    }
+
 
     img {
         height: 20px;
+        fill: red;
     }
 
     h1 {
         font-size: 12px;
         font-weight: 500;
-        color: white;
+        //color: white;
         //font-family: raleway;
     }
 }

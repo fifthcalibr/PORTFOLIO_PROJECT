@@ -81,6 +81,7 @@
 
     .project-image {
         display: flex;
+        //color: 2AE7E1
         flex: 2;
         border-radius: 10px;
         aspect-ratio: 4/3;
@@ -109,7 +110,7 @@
                 align-items: center;
 
                 .tags-wrapper {
-                    justify-content: space-between;
+                    justify-content: space-around;
 
                     .tag {
                         border-radius: 100px;
